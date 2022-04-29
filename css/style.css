@@ -1,0 +1,169 @@
+/* import file */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* custome font */
+font-face{
+    src: url(../font/AlgerianFont.woff) format("woff");
+    font-family: Algerian;
+}
+/* repaeted style  */
+
+
+body{
+    background: url('../images/background/bg1.jpg') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width:100%; 
+    transition: all 0.4s ease; 
+    -webkit-transition: all 0.4s ease;
+     -moz-transition: all 0.4s ease;
+}
+a{
+    text-decoration:none!important;
+     transition:0.4s ease-in; 
+     -webkit-transition:0.4s ease-in;
+      -moz-transition:0.4s ease-in;
+       -ms-transition:0.4s ease-in;
+        -o-transition:0.4s ease-in;
+}
+ul, ol{
+    list-style:none;
+}
+h1 {
+	color: #ffffff;
+	font-weight: bold;
+}
+p {
+    font-size: 14px; 
+    line-height: 24px; 
+    color: #fff;
+}
+a {
+    color: #fd07f1;
+    text-decoration: none;
+}
+a:hover{
+    color: #fd07f1;
+}
+a:visited{
+    color: #fd07f1;
+}
+
+/*********************************************
+				Topbar css
+**********************************************/
+.sb-title {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: Algerian;
+    color: #fd07f1;
+}
+/* .bar-info{
+    list-style:none; 
+    margin-top: 3px; 
+    padding:0px;
+     margin-bottom:0;
+} */
+/* .bar-info li{display:inline-block; margin-right:10px; margin-left:10px;} */
+/* .bar-info i{margin-right: 10px;} */
+.site-topbar {
+	padding: 10px 0;
+}
+.header {
+	background: #663009;
+}
+.chamber-name {
+    font-family: Algerian;
+    color: #f5f2d0;
+    font-size: 46.9px;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding-top: 12px;
+    text-shadow: 3px 4px 4px #040404;
+}
+.logo {
+	position: relative;
+}
+.logo img {
+	height: 90px;
+	width: 100%;
+	object-fit: contain;
+	z-index: 2;
+}
+.topbar-links {
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 25px;
+}
+.topbar-links img {
+	padding-right: 10px;
+	color: #cf9455;
+    width: 30px;
+}
+.topbar-links li{
+    padding:0 12px;
+     position:relative
+    }
+.topbar-links li a {
+	text-decoration: none;
+	font-size: 17px;
+	color: #fd07f1;
+}
+.topbar-links li:before.topbar-links li:before {
+	content: '|';
+	position: absolute;
+	right: -2px;
+	top: 42px;
+	color: #ffffff;
+	font-size: 10px;
+}
+.topbar-links li:last-child:before{display:none;}
+/* .welImg img {
+	height: 273px;
+	width: 100%;
+	object-fit: contain;
+	padding: 10px;
+} */
+
+@media screen and (max-width:500px) {
+    .logo img{
+        width: 130px;
+        
+    }
+    .adv-name h1{
+        font-size: 30px;
+       
+    }
+    .adv-name p{
+        display: none;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .logo img{
+        width: 130px;
+        
+    }
+    .adv-name h1{
+        font-size: 30px;
+       
+    }
+    
+    .topbar-links{
+        display: none;
+    }
+   
+}
