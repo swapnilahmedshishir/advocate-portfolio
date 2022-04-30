@@ -73,14 +73,7 @@ a:visited{
     font-family: Algerian;
     color: #fd07f1;
 }
-/* .bar-info{
-    list-style:none; 
-    margin-top: 3px; 
-    padding:0px;
-     margin-bottom:0;
-} */
-/* .bar-info li{display:inline-block; margin-right:10px; margin-left:10px;} */
-/* .bar-info i{margin-right: 10px;} */
+
 .site-topbar {
 	padding: 10px 0;
 }
@@ -114,7 +107,7 @@ a:visited{
 .topbar-links img{
 	padding-right: 10px;
 	color: #cf9455;
-    width: 30px;
+    width: 28px;
 }
 .topbar-links li{
     padding:0 12px;
@@ -134,12 +127,7 @@ a:visited{
 	font-size: 10px;
 }
 .topbar-links li:last-child:before{display:none;}
-/* .welImg img {
-	height: 273px;
-	width: 100%;
-	object-fit: contain;
-	padding: 10px;
-} */
+
 
 @media screen and (max-width:500px) {
     .logo img{
@@ -285,7 +273,7 @@ a:visited{
     font-size: 20px;
 }
 #about-us{
-    color:#ffffff ;
+    color: #f5f2d0;
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -301,3 +289,31 @@ a:visited{
    
 }
 
+/* slicker start */
+.team{
+    text-align: center;
+    border: 4px groove #cc6e2c;
+    box-shadow: 3px 3px 15px #b49f9f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.team .card-title{
+    color: white;
+}
+#our-servise{
+    color: #f5f2d0;
+   
+}
+
+/* chamber  */
+
+.chamber{
+    height: 250px;
+    background:#3333338f ;
+    color: white;
+    padding: 20px 45px;
+    box-shadow: 5px 4px 13px #160909;
+}
+.chamber address{
+    font-size: 18px;
+}
