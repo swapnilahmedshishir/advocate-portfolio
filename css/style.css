@@ -23,6 +23,7 @@ body{
     font-family: 'Roboto', sans-serif;   
     height: 4000px;
 }
+
 img{
     max-width:100%; 
     transition: all 0.4s ease; 
@@ -110,7 +111,7 @@ a:visited{
     margin-bottom: 0;
     padding-top: 25px;
 }
-.topbar-links img {
+.topbar-links img{
 	padding-right: 10px;
 	color: #cf9455;
     width: 30px;
@@ -228,7 +229,75 @@ a:visited{
     left: 0px;
     float: clear;
 }
+
+.whtup-img{
+    width: 40px;
+    padding-right: 10px;
+}
+.what-up-menu .what-up-font{
+    font-size: 19px;
+}
+
+/*  carousel style */
+
 .item {
     border: 8px groove #cc6e2c;
     box-shadow: 2px 2px 25px black;
+    margin-top: 1px;
 }
+
+
+.sliderr-height{
+    max-height: 550px;
+    
+}
+.carousel-item img{
+    height: 550px;
+    width: 100%;
+}
+
+@media screen and (max-width:960px) {
+
+    .sliderr-height{
+       max-height: 300px;
+        
+    }
+    .carousel-item img{
+        height: 300px;
+        width: 100%;
+    }
+
+}
+
+
+/* About us  */
+.card{
+    background-color: #333333;
+}
+.card img{
+    max-height: 350px;
+    width: 100%;
+}
+.card-title{
+    font-family: Algerian;
+    color: #684022;
+
+    font-size: 20px;
+}
+#about-us{
+    color:#ffffff ;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 43px;
+}
+.about-us-description{
+    font-size: 17px;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-family: 500;
+    text-align: justify;
+    text-justify: inter-word;
+   
+}
+
